@@ -17,11 +17,11 @@ public class BMW extends Car{
     }
 
     public  void breaksDown(){
-        System.out.println("Call service");
+        System.out.println(brand+" "+model+"Call service");
     }
 
     public void racing(){
-        System.out.println("Fast like eagle");
+        System.out.println(brand+" "+model+"Fast like eagle");
     }
     }
 

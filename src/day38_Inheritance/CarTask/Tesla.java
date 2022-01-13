@@ -7,8 +7,8 @@ public class Tesla extends Car {
 
     public static boolean isElectric = true;
 
-    public Tesla(String brand, String model, int year, double price, String color, long miles) {
-        super(brand, model, year, price, color, miles);
+    public Tesla(String model, int year, double price, String color, long miles) {
+        super("Tesla", model, year, price, color, miles);
 
 
     }
