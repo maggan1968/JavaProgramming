@@ -1,4 +1,4 @@
-package day35_Encapsolation.encapsulation;
+package day35_Encapsolation.encapsulation.RectangleTask;
 
 public class Rectangle {
 
