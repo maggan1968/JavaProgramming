@@ -35,7 +35,7 @@ public class Animal {
     }
 
     public void setBreed(String breed) {
-        if (name == null) {
+        if (breed == null) {
             System.err.println("Breed can not be null");
             System.exit(1); // 1: some thing went wrong
         }
@@ -77,7 +77,7 @@ public class Animal {
     }
 
     public void setColor(String color) {
-        if (name == null) {
+        if (color == null) {
             System.err.println("Color can not be null");
             System.exit(1); // 1: some thing went wrong
         }
