@@ -18,13 +18,14 @@ public class ReturnUniqueCharacter {
             if (isUnique) { // if the character is unique
                 result += ch;
 
-                //  if(str.indexOf(ch) == str.lastIndexOf(ch)){ //if the first and last index numbers of the character are same, then the character is unique
-                //     result += ch;
+                if (str.indexOf(ch) == str.lastIndexOf(ch)) { //if the first and last index numbers of the character are same, then the character is unique
+                    result += ch;
+                }
+
             }
 
+            System.out.println(result);
         }
-
-        System.out.println("result = " + result);
     }
 }
 

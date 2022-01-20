@@ -61,7 +61,7 @@ Access Modifiers: define the accessibility
 
 	default: ONLY reachable within the same package
 
-	public: ALWAYS rechable
+	public: ALWAYS reachable
 
 
 
