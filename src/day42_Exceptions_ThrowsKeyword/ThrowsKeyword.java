@@ -1,4 +1,4 @@
-package day42_Exceptions_TrowsKeyword;
+package day42_Exceptions_ThrowsKeyword;
 
 public class ThrowsKeyword {
 
