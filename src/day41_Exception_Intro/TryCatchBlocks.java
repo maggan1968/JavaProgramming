@@ -22,7 +22,7 @@ public class TryCatchBlocks {
 
         System.out.println("Test2 started");
 
-        int[] numbers = {1,2,3,4,5,};
+        int[] numbers = {1,2,3,4,5};
 
         try {
 
@@ -30,20 +30,16 @@ public class TryCatchBlocks {
 
             System.out.println("Try Block");
 
-       // } catch(NullPointerException e) {
-        } catch(RuntimeException e) {
+        }catch (RuntimeException e){
 
             e.printStackTrace();
 
-          //  System.out.println("Catch Block");
+            // System.out.println( e.getMessage() );
 
-          //  System.out.println("Null Pointer exception was occurred");
-
-           // System.out.println(e.getMessage());
         }
 
-        System.out.println("Test2 Completed");
 
+        System.out.println("Test2 Completed");
         System.out.println("---------------------------------------");
 
         System.out.println("Test3 started");
@@ -59,10 +55,14 @@ public class TryCatchBlocks {
         System.out.println("-------------------------------");
 
 
+        System.out.println("Hello");
 
-
-
-
+        try {
+            Thread.sleep(3000);
+        }catch(InterruptedException e){
+            e.printStackTrace();
+        }
+        System.out.println("Cydeo");
 
 
 
