@@ -1,0 +1,16 @@
+Java Day43
+Topic: Abstraction Intro
+			Abstract Method
+			Abstract class
+
+package name: day43_Abstraction
+
+
+Exception:
+	checked & unchecked
+	try & catch
+	throws
+	throw
+
+
+throw new RuntimeException("Exception Message");
