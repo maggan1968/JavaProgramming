@@ -1,6 +1,4 @@
-package day38_Inheritance.CarTask;
-
-import day38_Inheritance.CarTask.Car;
+package day38_Inheritance.carTask;
 
 public class Tesla extends Car {
 

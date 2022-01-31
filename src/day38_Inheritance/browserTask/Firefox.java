@@ -1,4 +1,4 @@
-package day38_Inheritance.BrowserTask;
+package day38_Inheritance.browserTask;
 
 public class Firefox extends Browser{
 
