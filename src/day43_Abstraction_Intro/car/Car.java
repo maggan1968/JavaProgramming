@@ -12,7 +12,7 @@ public abstract class Car {
         this.model = model;
         setColor(color);
 
-        if (year < 1886) {
+        if (year < 18) {
             throw new RuntimeException("Invalid Year: " + year);
         }
         this.year = year;
