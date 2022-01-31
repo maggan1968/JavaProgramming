@@ -1,6 +1,6 @@
 package day43_Abstraction_Intro.employeeTask;
 
-public abstract class Teacher extends Employee{
+public final class Teacher extends Employee{
 
 
     public Teacher(String name, int age, char gender, int id, String jobTitle, double salary) {
@@ -10,5 +10,12 @@ public abstract class Teacher extends Employee{
     @Override
     public void work() {
         System.out.println(getName()+ "is teaching");
+    }
+
+    @Override
+    public void sleep() {
+        System.out.println(getName()+" is sleeps 8 hours");
+
+
     }
 }
