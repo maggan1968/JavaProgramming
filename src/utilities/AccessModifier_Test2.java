@@ -1,6 +1,6 @@
 package utilities;
 
-import dag34_GarbageCollection_AccessModifiers.AccessModifiers;
+import day34_GarbageCollection_AccessModifiers.AccessModifiers;
 
 public class AccessModifier_Test2 {
 

@@ -1,8 +1,6 @@
-package day36_Inheritance.inheritance.EmployeeTask;
+package day42_Exceptions_ThrowsKeyword.inheritance.EmployeeTask;
 
-import day37_inheritance.ScrumTeamTask.Person;
-
-public class Employee  {
+public class Employee {
 
     public String name;
     public char gender;
@@ -13,33 +11,29 @@ public class Employee  {
     public String companyName;
 
 
-
-
-
-    public void setInfo(String name, char gender, int age, int id, String jobTitle, double salary) {
+    public void setInfo(String name, char gender, int age, String jobTitle, int id, double salary, String companyName) {
         this.name = name;
         this.gender = gender;
         this.age = age;
-        this.id = id;
         this.jobTitle = jobTitle;
+        this.id = id;
         this.salary = salary;
+        this.companyName = companyName;
     }
 
-
-
-
     public void work(){
-        System.out.println(jobTitle +" "+name+" is working");
+        System.out.println(name+ " is working");
     }
 
     public String toString() {
-        return getClass().getSimpleName()+"{" +  // this gets the class name automatically
+        return "Employee{" +
                 "name='" + name + '\'' +
                 ", gender=" + gender +
                 ", age=" + age +
-                ", id=" + id +
                 ", jobTitle='" + jobTitle + '\'' +
+                ", id=" + id +
                 ", salary=" + salary +
+                ", companyName='" + companyName + '\'' +
                 '}';
     }
 }
@@ -47,9 +41,13 @@ public class Employee  {
  Employee:
         name, gender, age, jobTitle, id, salary, companyName
         setInfo(), work(), toString()
+
+
     Tester
+
     Developer
+
     Driver
+
     Teacher
  */
-
