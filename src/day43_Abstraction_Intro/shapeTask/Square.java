@@ -1,4 +1,4 @@
-package day43_Abstraction_Intro.ShapeTask;
+package day43_Abstraction_Intro.shapeTask;
 
 public class Square extends Shape{
 
@@ -15,7 +15,7 @@ public class Square extends Shape{
         this.side = side;
     }
 
-    //                              -100
+
     public Square(double side) {
         super("Square");
         setSide(side);
@@ -31,15 +31,9 @@ public class Square extends Shape{
         return side * 4;
     }
 
-    @Override
-    public String toString() {
-        return "Square{" +
-                "side=" + side +
-                ", area='" + area() + '\'' +
-                ", perimeter='" + perimeter() + '\'' +
-                '}';
+
     }
 
 
 
-}
+

@@ -12,9 +12,15 @@ public class Employee  {
     public double salary;
     public String companyName;
 
-
-
-
+    public Employee(String name, char gender, int age, String jobTitle, int id, double salary, String companyName) {
+        this.name = name;
+        this.gender = gender;
+        this.age = age;
+        this.jobTitle = jobTitle;
+        this.id = id;
+        this.salary = salary;
+        this.companyName = companyName;
+    }
 
     public void setInfo(String name, char gender, int age, int id, String jobTitle, double salary) {
         this.name = name;
