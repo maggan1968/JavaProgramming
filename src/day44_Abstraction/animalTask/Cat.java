@@ -1,7 +1,7 @@
 package day44_Abstraction.animalTask;
 
 //step1
-public final class Cat extends Animal{
+public final class Cat extends Animal implements Playable {
 
 
     public Cat(String name, String breed, char gender, int age, String size, String color) {
@@ -11,12 +11,19 @@ public final class Cat extends Animal{
     //step2
     @Override
     public void eat() {
-        System.out.println(getName()+" eating ris");
+        System.out.println(getName() + " eating ris");
 
     }
-    public void meow(){
-        System.out.println(getName()+" is meowing");
+
+    public void meow() {
+        System.out.println(getName() + " is meowing");
     }
 
+
+    //because we want implement interface Playable,we need to override this
+
+    public void play() {
+        System.out.println(getName() + " is playable");
+    }
 }
 

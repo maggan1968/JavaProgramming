@@ -1,6 +1,6 @@
 package day44_Abstraction.animalTask;
 
-public final class Dog extends Animal{
+public final class Dog extends Animal implements Playable{
 
 
 //step3
@@ -11,12 +11,25 @@ public final class Dog extends Animal{
     public void bark(){
         System.out.println(getName()+" is barking");
 
+
+
     }
-//step2
+
+    //step2
     @Override
     public void eat() {
-        System.out.println(getName()+" is eating dog food");
+        System.out.println(getName() + " is eating dog food");
+
+
+        //because we want implement interface Playable,we need to override this
     }
-}
+        public void play() {
+            System.out.println(getName() + " is playable");
+
+
+
+        }
+    }
+
 
 
