@@ -1,14 +1,12 @@
 package day43_Abstraction_Intro.car;
 
-public class Tesla extends Car implements AutoPilot{
-    public Tesla( double price, String color) {
-        super("Tesla", "S", 2020, price, color);
+public class Mercedes extends Car implements AutoPark{
+
+    public Mercedes( double price, String color) {
+
+        super("Mercedes", "C", 2021, price, color);
     }
 
-    @Override
-    public void selfDrive() {
-        System.out.println(getBrand()+" "+getModel()+" is self driving");
-    }
 
     @Override
     public void autoPark() {
@@ -24,6 +22,5 @@ public class Tesla extends Car implements AutoPilot{
     public void drive() {
         System.out.println(getBrand()+" "+getModel()+" is driving");
     }
-
 
 }

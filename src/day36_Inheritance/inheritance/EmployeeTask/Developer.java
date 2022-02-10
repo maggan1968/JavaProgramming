@@ -2,6 +2,11 @@ package day36_Inheritance.inheritance.EmployeeTask;
 
 public class Developer extends Employee{
 
+
+    public Developer(String name, char gender, int age, String jobTitle, int id, double salary, String companyName) {
+        super(name, gender, age, jobTitle, id, salary, companyName);
+    }
+
     public void coding(){
         System.out.println(jobTitle+" "+name+" is coding");
     }

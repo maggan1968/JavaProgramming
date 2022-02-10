@@ -1,4 +1,4 @@
-package day45_Abstaction_Interface;
+package day31_CustomClass_Constructors.day45_Abstaction_Interface;
 
 public interface PropertiesOf_Interface {
 

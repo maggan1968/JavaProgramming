@@ -3,11 +3,13 @@ package day37_inheritance.ScrumTeamTask;
 import day36_Inheritance.inheritance.EmployeeTask.Employee;
 
 public class Tester extends Employee {
+    public Tester(String name, char gender, int age, String jobTitle, int id, double salary, String companyName) {
+        super(name, gender, age, jobTitle, id, salary, companyName);
+    }
 
     //constructor
-    public Tester(String name, int age, char gender,  int id, double salary, String companyName) {
-        super(name, age, gender, "Tester", id, salary, companyName);//parent class constructor
-    }
+    //parent class constructor
+
 
     public void test(){
         System.out.println(name+ " is testing");
