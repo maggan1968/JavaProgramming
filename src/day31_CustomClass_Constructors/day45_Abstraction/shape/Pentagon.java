@@ -1,8 +1,8 @@
-package day45_Abstraction.shape;
+package day31_CustomClass_Constructors.day45_Abstraction.shape;
 
-public class Triangle extends Shape{
+public class Pentagon extends Shape {
 
-    public Triangle(String name) {
+    public Pentagon(String name) {
         super(name);
     }
 
@@ -15,4 +15,5 @@ public class Triangle extends Shape{
     public double perimeter() {
         return 0;
     }
+
 }

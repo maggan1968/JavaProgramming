@@ -15,7 +15,7 @@ public final class Developer extends Employee{
         System.out.println(getName()+" sleeps 6 hours");
 
     }
-    public void initTest(){
+    public void unitTest(){
         System.out.println(getName()+" is unit Testing");
     }
 }

@@ -1,8 +1,8 @@
-package day45_Abstraction.shape;
+package day31_CustomClass_Constructors.day45_Abstraction.shape;
 
-public class Rectangle extends Shape {
+public class Triangle extends Shape{
 
-    public Rectangle(String name) {
+    public Triangle(String name) {
         super(name);
     }
 

@@ -1,8 +1,8 @@
-package day45_Abstraction.shape;
+package day31_CustomClass_Constructors.day45_Abstraction.shape;
 
-public class Cube extends Shape implements Volume {
+public class Cylinder extends Shape implements Volume {
 
-    public Cube(String name) {
+    public Cylinder(String name) {
         super(name);
     }
 
@@ -21,4 +21,5 @@ public class Cube extends Shape implements Volume {
     public double volume() {
         return 0;
     }
+
 }

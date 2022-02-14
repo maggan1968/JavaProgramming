@@ -1,8 +1,8 @@
-package day45_Abstraction.shape;
+package day31_CustomClass_Constructors.day45_Abstraction.shape;
 
-public class Sphere extends Shape implements Volume{
+public class Cube extends Shape implements Volume {
 
-    public Sphere(String name) {
+    public Cube(String name) {
         super(name);
     }
 
@@ -15,6 +15,7 @@ public class Sphere extends Shape implements Volume{
     public double perimeter() {
         return 0;
     }
+
 
     @Override
     public double volume() {
