@@ -33,8 +33,6 @@ public class Set_Interface_Practice {
        // System.out.println(hashSet.get(4));
 
 
-
-
         Set<Integer> linkedHashSet = new LinkedHashSet<>();
 
 //Child class of HashSet,Maintains the insertion order,Accepts null values
