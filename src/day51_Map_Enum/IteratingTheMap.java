@@ -1,6 +1,6 @@
 package day51_Map_Enum;
 
-import com.sun.applet2.AppletParameters;
+
 
 import java.util.*;
 

@@ -1,7 +1,5 @@
 package Day15_ForLoop;
 
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.Util;
-import jdk.nashorn.internal.ir.LexicalContext;
 
 import java.util.Scanner;
 
