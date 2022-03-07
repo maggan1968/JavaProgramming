@@ -1,0 +1,61 @@
+Java Day06:
+Topics: Primitive Type Castings
+		Arithmetic Operators
+
+Package name: day06_PrimitiveTypeCastings
+
+Warmup tasks
+	1. Create a class named BirthDay and create the following variable
+			 name, birthDay(int), birthMonth(String), birthYear(int)
+
+			 use concatenation to display the birthday of the person
+
+			 	if  name = "John"
+			 		birthDay = 25
+			 	    birthMonth = "April"
+			 	    birthYear = 1995;
+
+			 	output:
+			 		John was born on April/25/1995.
+Primitive Type casting:
+
+•Allows us to assign one primitive type value to another primitive type
+•There are two types of primitive type castings: implicit and explicit castings
+•Cast Operator is needed to manually convert a value
+
+Implicit casting:
+
+•Casting smaller primitive types to larger primitive types
+•Implicitly done by the compiler
+
+byte a = 25;                     short x = 1000;
+int b = a;                       long y = (long)x;
+
+Explicit casting:
+
+•Casting larger primitive types to smaller primitive types
+•Must be done explicitly
+
+int a =100;                      long x= 2000;
+byte b = (byte)a;                short y = (short)x;
+
+
+
+
+Primitives:
+	
+	double > float > long > int > short > byte
+
+	smaller primitives can be directly assigned to larger primitive type
+	larger primitives can NOT be directly assigned to smaller primitive types (need to be casted manually)
+
+
+Arithmetic Operators:
+
+
+NAME           OPERATOR   PURPOSE & NOTES                              EXAMPLE        RESULT
+ADDITION          +       Adds one value to another                     10+5           15
+SUBTRACTION       -       Subtracts one value from another              10-5            5
+DIVISION          /       Divides two values                            10/5            2
+MULTIPLICATION    *       Multiplies two values                         10*5           50
+MODULUS           %       Divides two values and returns the remainder  10%3            1
